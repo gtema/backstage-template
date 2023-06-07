@@ -1,0 +1,22 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: demo
+spec:
+  type: test
+
+  parameters:
+
+  steps:
+    - id: fetch-base
+      name: Fetch Base
+      action: fetch:template
+      input:
+        url: ./skeleton
+        cookiecutterCompat: true
+        values:
+          repo_name: dummy
+          git_fqdn: dummy
+          repo_group: dummy
+          project_short_description: dummy
+          zuul_jobs_template: dummy

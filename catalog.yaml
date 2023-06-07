@@ -1,0 +1,8 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: software-templates
+spec:
+  targets:
+    - ./demo/template.yaml
