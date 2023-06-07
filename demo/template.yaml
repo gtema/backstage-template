@@ -5,7 +5,7 @@ metadata:
 spec:
   type: test
 
-  parameters:
+  parameters: []
 
   steps:
     - id: fetch-base
